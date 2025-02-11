@@ -6,11 +6,10 @@
 	border: none;
 	outline: none;
 	font-family: 'poppins',sans-serif;
-
 }
 
 html{
-	font-size: 65.5%;
+	font-size: 62.5%;
 }
 body{
 	width: 100%;
@@ -98,17 +97,16 @@ nav a.active{
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		grid-template-areas: 8rem;
+		gap:8rem;
 		background-color: black;
 	}
 	.home.home-content h1{
-		font-size: 7rem;
+		font-size: 6rem;
 		font-weight: 700;
 		line-height: 1.3;
 	}
 	span{
 		color: red;
-
 
 	}
 	.home-content h3{
@@ -122,6 +120,23 @@ nav a.active{
 	}
 	.home-img {
 		border-radius: 50%;
+	}
+	.pp h1{
+	    text-align: center;
+		color: black;
+		width: auto;
+		height: 50px;
+		background-color: red;
+	}
+	.pp h1:hover{
+		color: orange;
+		cursor: copy;
+	}
+	.op{
+		color: black;
+		background-color: red;
+		border-radius: 2px;
+
 	}
 	.home-img img{
 		position: relative;
@@ -139,8 +154,8 @@ nav a.active{
 		display: inline-flex;
 		justify-content: center;
 		align-items: center;
-		width: 2rem;
-		height: 2rem;
+		width: 4rem;
+		height: 4rem;
 		background-color: transparent;
 		border:0.2rem solid red;
 		font-size: 2rem;
@@ -151,29 +166,12 @@ nav a.active{
 
 
 	}
-	.pp h1{
-	    text-align: center;
-		color: black;
-		width: auto;
-		height: 50px;
-		background-color: red;
-	}
-	.pp h1:hover{
-		color: orange;
-		cursor: copy;
-	}
 	.social-icon a:hover{
 		color: : black;
 		transform: scale(1.3) ;
 		background-color: red;
 		box-shadow: 0 0 25px red;
 }
-	.op{
-		color: black;
-		background-color: red;
-		border-radius: 2px;
-
-	}
 	.btn{
 		display: inline-block;
 		padding: 1rem 2.8rem;
