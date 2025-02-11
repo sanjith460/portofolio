@@ -6,15 +6,11 @@
 	border: none;
 	outline: none;
 	font-family: 'poppins',sans-serif;
-	@font-face{
-  font-family: myFirstFont;
-  src: url(sansation_bold.woff);
-  font-weight: bold;
-}
+
 }
 
 html{
-	font-size: 62.5%;
+	font-size: 65.5%;
 }
 body{
 	width: 100%;
